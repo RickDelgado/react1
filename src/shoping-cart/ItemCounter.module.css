@@ -1,0 +1,13 @@
+.itemRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.item-text {
+  width: 150px;
+}
+
+.color-red {
+  color: red;
+}
