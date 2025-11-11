@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > should match the snapshot 1`] = `
+<div>
+  <div>
+    <h1
+      data-testid="first-name-title"
+    >
+      Ricardo
+    </h1>
+    <h3>
+      Delgado
+    </h3>
+    <p
+      class="myclass"
+    >
+      Smash,GOW,Uncharted
+    </p>
+    <p>
+       
+      4
+       
+    </p>
+    <h1>
+      Activo
+    </h1>
+    <p
+      style="color: blue; font-size: 20px;"
+    >
+      {"street":"123 Main St","city":"Metropolis","country":"USA"}
+    </p>
+  </div>
+</div>
+`;
