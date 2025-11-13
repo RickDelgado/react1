@@ -31,4 +31,9 @@ describe("MyAwesomeApp", () => {
 
     expect(container).toMatchSnapshot();
   });
+
+  test("should match the snapshot", () => {
+    render(<MyAwesomeApp />);
+    expect(screen.getByTestId("div-app")).toMatchSnapshot();
+  });
 });

@@ -19,7 +19,7 @@ const myStyle: CSSProperties = {
 
 export function MyAwesomeApp() {
   return (
-    <div>
+    <div data-testid="div-app">
       <h1 data-testid="first-name-title">{nombre}</h1>
       <h3>{apellido}</h3>
 
